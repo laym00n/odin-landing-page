@@ -85,3 +85,41 @@ a {
     font-weight: bold;
 }
 
+.section2 .info {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.card-container {
+    display: flex;
+    padding: 16px 64px;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 64px;
+    flex-wrap: wrapP;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+}
+
+.card-box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.card-text p {
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
