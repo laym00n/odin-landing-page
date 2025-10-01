@@ -100,7 +100,7 @@ a {
     justify-content: center;
     gap: 48px;
     margin-bottom: 64px;
-    flex-wrap: wrapP;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -123,3 +123,31 @@ a {
     color: black;
 }
 
+.section3 {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+    flex-wrap: wrap;
+}
+.quote p {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quoteby {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+}
